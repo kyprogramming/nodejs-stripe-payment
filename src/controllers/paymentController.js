@@ -36,7 +36,7 @@ export const createPayment = async (req, res) => {
             amount,
             status: "pending",
         });
-        
+
         return res.status(201).json(payload);
     } catch (err) {
         console.error("[stripe] createPaymentIntent failed:", err.message);
