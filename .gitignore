@@ -1,0 +1,79 @@
+# Node modules
+
+node_modules/
+
+# Environment variables
+
+.env
+.env.*
+!.env.example
+
+# Logs
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+
+.vscode/
+.idea/
+*.swp
+
+# Build / output
+
+dist/
+build/
+out/
+
+# Coverage
+
+coverage/
+
+# Temporary files
+
+tmp/
+temp/
+
+# Parcel / Vite cache
+
+.cache/
+.parcel-cache/
+.vite/
+
+# Next.js / Nuxt (if used later)
+
+.next/
+.nuxt/
+
+# Misc
+
+*.local
+
+# Stripe (optional logs or CLI files)
+
+.stripe/
+stripe_exe/
+
+# Debug files
+
+*.pid
+*.seed
+*.pid.lock
+
+# Mac system files
+
+.AppleDouble
+.LSOverride
+
+# Windows system files
+
+ehthumbs.db
+Desktop.ini
